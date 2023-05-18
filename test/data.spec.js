@@ -1,7 +1,13 @@
-import { example, anotherExample } from '../src/data.js';
+import { dataByName } from '../src/data.js';
 
+describe("dataByName", () =>{
+  it("verificar nombre de champ", () =>{
+    const data = dataByName("Caitlyn")
+    expect(data.name).toEqual("Caitlyn")
+  })
+})
 
-describe('example', () => {
+/* describe('example', () => {
   it('is a function', () => {
     expect(typeof example).toBe('function');
   });
@@ -20,4 +26,4 @@ describe('anotherExample', () => {
   it('returns `anotherExample`', () => {
     expect(anotherExample()).toBe('OMG');
   });
-});
+}); */
