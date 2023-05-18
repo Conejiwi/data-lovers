@@ -9,7 +9,7 @@ Estoy aprendiendo Javascript.
 
 ## Sobre el proyecto
 
-Originalmente este proyecto se hacia en duplas pero con mi compañera no logramos congeniar y terminamos haciendo cada una un proyecto por separado, con el mismo tema que habíamos elegido al comienzo. Gracias a que conozco el tema fue sencillo llegar al qué y cómo.
+Originalmente este proyecto se hacia en dúos pero con mi compañera no logramos congeniar y en conjunto con el staff de Laboratoria decidimos realizar el proyecto por separado, con el mismo tema que habíamos elegido al comienzo. Gracias a que conozco el tema fue sencillo llegar al qué y cómo.
 
 ¿Cuál es la necesidad del usuario? Encontrar un campeón específico o revisar qué campeones existen. Darle la facilidad para hacerlo de distintas maneras.
 
