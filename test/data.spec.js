@@ -1,4 +1,4 @@
-import { dataByName } from '../src/data.js';
+import { dataByName, filterByName, ordenar } from '../src/data.js';
 
 describe("dataByName", () =>{
   it("verificar nombre de champ", () =>{
@@ -7,23 +7,33 @@ describe("dataByName", () =>{
   })
 })
 
-/* describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+describe('ordenar', () => {
+  it('verificar tipo de dato', () => {
+    const data = ordenar(true)
+    expect(typeof data).toBe('object');
   });
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it('ordenar AZ', () => {
+    const data = ordenar(true)
+    expect(data[0]).toEqual('Aatrox');
+  });
+  it('ordenar ZA', () => {
+    const data = ordenar(false)
+    expect(data[0]).toEqual('Zyra');
   });
 });
 
 
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
+describe('filterByName', () => {
+  it('verificar tipo de dato', () => {
+    const data = filterByName("Caitlyn")
+    expect(typeof data).toBe('object');
   });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it("verificar champ", () => {
+    const data = filterByName("Caitlyn")
+    expect(data.length).toEqual(1);
   });
-}); */
+  it("verificar champ 2", () => {
+    const data = filterByName("Vi")
+    expect(data.length).toEqual(4);
+  });
+});

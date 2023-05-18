@@ -31,7 +31,3 @@ export const ordenar = (ordenamiento) => {
 export const dataByName = (nombreChamp) => {
   return champs.data[nombreChamp]
 }
-
-
-
-/* test .sort y .filter */
