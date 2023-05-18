@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <img src="assets/lol-logo.png" alt="logo lol" class="logo-header">
+    <!-- <h1>H E A D E R con info y botones</h1> -->
+    <a type="button" id="join" href="https://signup.leagueoflegends.com/es-ar/signup/index">JUEGA GRATIS</a>
+  </header>
+
+  <main>
+    <h1>BUSCA TU CAMPEÓN</h1>
+
+    <div class="divider">
+      <img src="assets/divider.png" alt="division">
+    </div>
+
+    <div class="buscadores">
+      <div>
+        <input placeholder="Busca un campeón" id="buscar-champ" required autocomplete="off" />
+      </div>
+      <div>
+        <button id="btnAZ">Ordenar de la A-Z</button>
+      </div>
+      <div>
+        <select id="seleccionar">
+          <option>All Champions</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="main">
+
+    </div>
+  </main>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Modal Header</h2>
+      </div>
+      <div class="modal-body">
+        <h1 id="modal-name"></h1>
+        <p id="modal-title"></p>
+        <p id="modal-blurb"></p>
+        <img id="modal-splash"/>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="box-up">
+    <button id="flechita">
+      <img src="assets/arrow.png" alt="arrowup" />
+    </button>
+  </div>
+
+  <footer class="footer">&copy; Riot Games</footer>
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>

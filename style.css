@@ -1,0 +1,177 @@
+header{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+}
+
+.logo-header{
+    width: 100px;
+    height: auto;
+    float: left;
+    margin: 35px 20px 25px 20px;
+}
+
+#join{
+    background-color: rgb(11, 196, 226);
+    color: rgb(0, 0, 0);
+    float: right;
+    margin: 35px 20px 35px 20px;
+    border-radius: 12px;
+    padding: 8px 16px;
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+body {
+    background-color: #111;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.divider{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.divider img{
+    height: 50px;
+}
+
+.buscadores{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.buscadores div input{
+    width: 500px;
+    height: 20px;
+    padding: 0 0 0 20px;
+}
+
+.buscadores div button{
+    height: 23px;
+}
+
+.buscadores div select{
+    width: 200px;
+    height: 23px;
+    padding: 0 0 0 20px;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, .5fr));
+    gap: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.cajita{
+    border: 1px solid rgb(238, 171, 27);
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.cajita p{
+    position: absolute;
+    color: yellow;
+    padding: 10px 20px 10px 20px;
+    background-color: #000000a6;
+    border-radius: 0 15px 15px 0;
+    font-size: 20px;
+}
+
+.cajita img{
+    width: 100%;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #383838ba;
+}
+
+.modal-content{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid grey;
+    width: 80%;
+}
+
+.close{
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.modal-header{
+    padding: 2px 16px;
+    background-color: grey;
+    color: white;
+}
+
+.modal-body{
+    padding: 2px 16px;
+}
+
+#modal-name{
+    
+}
+
+.box-up{
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+}
+
+#flechita{
+    background-color: transparent;
+    border: transparent;
+}
+
+#flechita img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+footer{
+    color: #fff;
+    background-color: #292929;
+    padding: 16px 0;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 100px;
+}
