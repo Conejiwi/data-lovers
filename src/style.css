@@ -124,6 +124,7 @@ h1{
     padding: 0;
     border: 1px solid grey;
     width: 80%;
+    z-index: 3;
 }
 
 .close{
@@ -131,7 +132,6 @@ h1{
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
-
 }
 
 .modal-header{
@@ -144,8 +144,13 @@ h1{
     padding: 2px 16px;
 }
 
-/* #modal-name{
-} */
+#modal-name{
+    color: #111;
+}
+
+#modal-splash{
+    z-index: 2;
+}
 
 .box-up{
     position: fixed;
